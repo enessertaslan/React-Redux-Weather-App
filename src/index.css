@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Mouse Memoirs', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url(./img/4k-minimalist-clouds-7qvee6wib21dgw8w.jpg);
+  background-position: center;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

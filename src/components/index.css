@@ -1,0 +1,113 @@
+.explorer-container{
+    width: 40%;
+    margin: auto;
+    background-color:#7c30afc5;
+    border-radius: 15px;
+    color: white;
+    border: 3px solid;
+}
+.weather-location
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2px;
+}
+.weather-first-row{
+    display: flex;
+    justify-content: flex-start;
+  width: 100%;
+  font-size: 1.3rem;
+}
+.weather-info{
+    width: 40%;
+}
+.weather-info img{
+    width: 50%;
+    
+}
+.weather-heat{
+    width: 20%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.weather-specs{
+    width: 40%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+.weather-second-row{
+    display: flex;
+    justify-content: flex-start;
+}
+.weather-days{
+    width: 20%;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.city-container{
+    margin: auto;
+margin-bottom: 1rem;
+margin-top: 2%;
+width: 40%;
+
+}
+.city-container select{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color:#7c30afc5;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    border: 2.5px solid;
+}
+.city-container select[current]{
+    border-radius: 10px;
+    border: 0 0 0 0;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.header{
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+}
+@media all and (max-width: 480px) {
+    .explorer-container{
+        width: 90%;
+    }
+    .city-container{
+        width: 90%;
+    }
+ }
+
+ @media all and (min-width: 768px) and (max-width: 1024px) { 
+    .explorer-container{
+        width: 80%;
+    }
+    .city-container{
+        width: 80%;
+    }
+ }
+ @media all and (min-width: 480px) and (max-width: 768px) { 
+    .explorer-container{
+        width: 80%;
+    }
+    .city-container{
+        width: 80%;
+    }
+ }
+ @media all and (min-width: 280px) and (max-width: 653px) { 
+    .explorer-container{
+        width: 95%;
+    }
+    .city-container{
+        width: 95%;
+    }
+ }
+ 
